@@ -1,12 +1,12 @@
 def greet_user():
-    name = input("Enter your name: ")
+    name = input("Введите ваше имя: ")
     if name:
-        print(f"Hello, {name}!")
+        print(f"Привет, {name}!")
     else:
-        print("You did not enter a name.")
+        print("Вы не ввели имя.")
 
 def farewell_user():
-    print("Goodbye!")
+    print("До свидания!")
 
 if __name__ == "__main__":
     greet_user()
